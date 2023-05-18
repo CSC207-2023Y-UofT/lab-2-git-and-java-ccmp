@@ -44,6 +44,10 @@ public class IntroLab {
     /**
      * An example method that calls on printLabMessage.
      */
+    public static String pantadiw(String name) {
+        return printLabMessage("Hey", name, false, "Nice to meet you!");
+    }
+
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
@@ -52,6 +56,7 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(pantadiw("Milan"));
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
@@ -62,7 +67,5 @@ public class IntroLab {
 
 
     }
-
-    // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
 }
