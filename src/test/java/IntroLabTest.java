@@ -33,7 +33,7 @@ public class IntroLabTest {
     public void testthamweil() {
         String expected = "Hi! My name is Daryl! " +
                 "I like dogs more than cats! how are you?";
-        String actual = IntroLab.thamweil("Hi", "Daryl", false, "how are you?");
+        String actual = IntroLab.thamweil();
         assertEquals(expected, actual);
     }
 }
